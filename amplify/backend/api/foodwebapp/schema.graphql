@@ -1,0 +1,11 @@
+type Recipe @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Ingredients: [Ingredients] @manyToMany(relationName: "RecipeIngredients")
+  recipeName: String
+}
+
+type Ingredients @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  food_name: String
+  recipes: [Recipe] @manyToMany(relationName: "RecipeIngredients")
+}

@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodwebapp-staging-171915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725344917:role/amplify-foodwebapp-staging-171915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725344917:role/amplify-foodwebapp-staging-171915-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-foodwebapp-staging-171915-deployment",
+      "UnauthRoleName": "amplify-foodwebapp-staging-171915-unauthRole",
+      "StackName": "amplify-foodwebapp-staging-171915",
+      "StackId": "arn:aws:cloudformation:us-east-2:851725344917:stack/amplify-foodwebapp-staging-171915/cfdc74d0-e614-11ee-89e1-06af267e2e41",
+      "AmplifyAppId": "d1fdfqmt7t17oz"
+    }
+  }
+}
